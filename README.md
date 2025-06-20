@@ -58,8 +58,6 @@ A simple baseline model that averages word embeddings from GloVe for each senten
 - **Optimizer**: Adam
 - **Loss Function**: Categorical Crossentropy
 
----
-
 ### 🔹 Emojifier-V2: LSTM-based Deep Learning Model
 
 A more sophisticated model using an LSTM to capture word order and context in the sentence.
@@ -86,6 +84,8 @@ A more sophisticated model using an LSTM to capture word order and context in th
 - **V1** performs well using basic embeddings, but lacks sequential understanding.
 - **V2** captures word order/context with LSTM, yielding slightly better test performance.
 - Both models are evaluated using top-1 accuracy
+
+---
 
 ## 🛠️ Tools and Libraries Used
 
